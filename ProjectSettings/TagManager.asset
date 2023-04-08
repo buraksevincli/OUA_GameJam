@@ -3,7 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Door
+  - home1
+  - home2
+  - home3
+  - home3_basement
+  - home4
+  - home5
+  - Storage
+  - MainBuilding
+  - home2_basement
+  - main
   layers:
   - Default
   - TransparentFX
