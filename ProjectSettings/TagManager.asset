@@ -44,15 +44,12 @@ TagManager:
   - name: Background
     uniqueID: 2218382151
     locked: 0
-  - name: wall
-    uniqueID: 1848048525
-    locked: 0
   - name: Midground
     uniqueID: 2405066907
     locked: 0
   - name: Foreground
     uniqueID: 945590489
     locked: 0
-  - name: Chair
-    uniqueID: 3611457159
+  - name: Player
+    uniqueID: 608558953
     locked: 0
