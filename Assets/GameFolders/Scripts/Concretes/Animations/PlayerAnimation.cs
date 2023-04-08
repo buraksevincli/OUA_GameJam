@@ -17,16 +17,6 @@ namespace GameFolders.Scripts.Concretes.Animations
             _animator.SetFloat("horizontalSpeed", Mathf.Abs(horizontal));
         }
 
-        public void UpSideWalkAnimation(bool upSide)
-        {
-            _animator.SetBool("upSide", upSide);
-        }
-
-        public void DownSideWalkAnimation(bool downSide)
-        {
-            _animator.SetBool("downSide", downSide);
-        }
-
         public void VerticalWalkAnimation(float vertical, bool upSide, bool downSide)
         {
             switch (vertical)
