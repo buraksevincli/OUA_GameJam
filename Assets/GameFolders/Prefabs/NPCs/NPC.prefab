@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3552790460732188030}
   - component: {fileID: 6003962346510672179}
   - component: {fileID: 5486795831857814185}
+  - component: {fileID: 6364148613155412455}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -103,6 +104,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6364148613155412455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925697524027436892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14c60eeadfc39944099aeaecdd3b11a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 0}
 --- !u!1 &7715731399587122635
 GameObject:
   m_ObjectHideFlags: 0
