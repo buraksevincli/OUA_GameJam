@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Home5.unity
     guid: 2a57c3045bdcec7438eca8481f6705a2
   - enabled: 1
-    path: Assets/Scenes/MainBuilding Hasan.unity
+    path: Assets/Scenes/Main Building.unity
     guid: 58d31c6a9bca2714d8bb6a2bc695fecc
   - enabled: 1
     path: Assets/Scenes/Storage.unity
