@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
@@ -10,7 +9,6 @@ namespace GameFolders.Scripts.Abstracts.Controllers
         #region Npc Options
         [Header("NPC Panel")]
         [SerializeField] private GameObject panel;
-        [SerializeField] private GameObject npcImage;
         [SerializeField] private GameObject[] button;
         
         [Header("Texts")]
@@ -21,8 +19,8 @@ namespace GameFolders.Scripts.Abstracts.Controllers
         [Header("Question")] 
         [SerializeField] private string sentences;
         #endregion
-        
-        private static bool PlayerTriggered { get; set; }
+
+        protected static bool PlayerTriggered { get; set; }
 
         private void Start()
         {
@@ -40,25 +38,6 @@ namespace GameFolders.Scripts.Abstracts.Controllers
                 button[1].SetActive(PlayerTriggered);
             }
         }
-
-        #region TriggerRegion
-        private void OnTriggerEnter2D(Collider2D col)
-        {
-            if (col.gameObject.CompareTag("Player"))
-            {
-                PlayerTriggered = true;
-                StartDialogue();
-            }
-        }
-
-        private void OnTriggerExit2D(Collider2D other)
-        {
-            if (other.gameObject.CompareTag("Player"))
-            {
-                PlayerTriggered = false;
-            }
-        }
-        #endregion
         
         #region DialogueRegion
 
@@ -71,7 +50,7 @@ namespace GameFolders.Scripts.Abstracts.Controllers
             }
         }
         
-        private void StartDialogue()
+        protected void StartDialogue()
         {
             questionText.text = "";
             StartCoroutine(Dialogue());
@@ -82,7 +61,6 @@ namespace GameFolders.Scripts.Abstracts.Controllers
         private void NpcPanelController()
         {
             panel.SetActive(PlayerTriggered);
-            npcImage.SetActive(PlayerTriggered);
         }
         #endregion
     }

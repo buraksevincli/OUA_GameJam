@@ -75,6 +75,74 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 22100000, guid: 3b12b7ed9dfc1594bbab2b941c7c0fd1, type: 2}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: panel
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: sentences
+      value: "Ho\u015Fgeldin Evlat. Senin i\xE7in bir sorum var."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: writeSpeed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: questionText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: button.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: npcImage.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: button.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: button.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: answerText.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: npcImage.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: npcImage.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: npcImage.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: npcImage.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: npcImage.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: npcImage.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: answerText.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: answerText.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3272106931006418348, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 91453e03381545c428d4ec320e3473ca, type: 3}

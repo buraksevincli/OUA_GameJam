@@ -75,5 +75,77 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 22100000, guid: ff66699c07095f744920e4ef195e3465, type: 2}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: panel
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: sentences
+      value: "Merhaba Akademiye Ho\u015Fgeldin"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: imageIndex
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: writeSpeed
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: questionText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: button.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: npcImage.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: button.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: button.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: answerText.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: npcImage.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: npcImage.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: npcImage.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: npcImage.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: npcImage.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: npcImage.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: answerText.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364148613155412455, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
+      propertyPath: answerText.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91453e03381545c428d4ec320e3473ca, type: 3}
