@@ -18,6 +18,7 @@
     <setting file="file://$PROJECT_DIR$/../CorrectCodingProject3/Assets/GameFolders/Scripts/Concretes/Movements/FlipWithSpriteRenderer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../CorrectCodingProject3/Assets/GameFolders/Scripts/Concretes/Movements/FlipWithTransform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../CorrectCodingProject3/Assets/GameFolders/Scripts/Concretes/Movements/MoverWithVelocity.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../GamFed_Proteo/Assets/GameFolders/Scripts/Concretes/Controllers/ButtonController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../GamFed_Proteo/Assets/GameFolders/Scripts/Concretes/Controllers/ClothesController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../GamFed_Proteo/Assets/GameFolders/Scripts/Concretes/Controllers/DigController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameFolders/Scripts/Abstracts/Animations/IAnimation.cs" root0="FORCE_HIGHLIGHTING" />

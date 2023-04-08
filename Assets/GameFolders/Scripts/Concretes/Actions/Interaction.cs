@@ -10,20 +10,27 @@ public class Interaction : MonoBehaviour
     [SerializeField] private GameObject panel;
     [SerializeField] private GameObject item;
     
-    private void OnTriggerStay2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
         if (other.gameObject.CompareTag("Player"))
         {
             panel.SetActive(true);
-            if (Input.GetKeyDown(KeyCode.E))
+        }
+    }
+    
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Debug.Log("stay");
+            if (Input.GetKey(KeyCode.E))
             {
                 item.SetActive(true);
                 gameObject.SetActive(false);
             }
         }
     }
-
+    
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
