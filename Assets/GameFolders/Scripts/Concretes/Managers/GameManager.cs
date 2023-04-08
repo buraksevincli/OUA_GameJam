@@ -1,19 +1,30 @@
+using System;
 using UnityEngine;
 
 namespace GameFolders.Scripts.Concretes.Managers
 {
     public class GameManager : MonoBehaviour
     {
-        // Start is called before the first frame update
-        void Start()
-        {
+        public static GameManager Instance { get; set; }
         
+        public bool Question1 { get; set; }
+        
+        private void Awake()
+        {
+            SingletonThisObject();
         }
 
-        // Update is called once per frame
-        void Update()
+        private void SingletonThisObject()
         {
-        
+            if (Instance == null)
+            {
+                Instance = this;
+                DontDestroyOnLoad(this.gameObject);
+            }
+            else
+            {
+                Destroy(this.gameObject);
+            }
         }
     }
 }

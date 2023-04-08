@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using GameFolders.Scripts.Concretes.Managers;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -30,5 +31,6 @@ public class Interaction : MonoBehaviour
             panel.SetActive(false);
         }
     }
+    
 }
 

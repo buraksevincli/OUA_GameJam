@@ -1,4 +1,5 @@
 using GameFolders.Scripts.Abstracts.Controllers;
+using GameFolders.Scripts.Concretes.Managers;
 using UnityEngine;
 
 namespace GameFolders.Scripts.Concretes.Controllers
