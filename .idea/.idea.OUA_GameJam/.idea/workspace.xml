@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ee753980-75fa-40e4-a2ed-f3dd043346c1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OUA_GameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OUA_GameJam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/RPGW Houses And Interiors/Sheet/furniture.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetFolders/RPGW Houses And Interiors/Sheet/furniture.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameFolders/Prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameFolders/Prefabs/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainBuilding Hasan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainBuilding Hasan.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,6 +97,9 @@
       <workItem from="1680912334320" duration="9928000" />
       <workItem from="1680922392056" duration="18000" />
       <workItem from="1680951421573" duration="765000" />
+      <workItem from="1680961813230" duration="5000" />
+      <workItem from="1680961858650" duration="97000" />
+      <workItem from="1680961986990" duration="4197000" />
     </task>
     <servers />
   </component>
