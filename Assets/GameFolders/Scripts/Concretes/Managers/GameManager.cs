@@ -9,10 +9,8 @@ namespace GameFolders.Scripts.Concretes.Managers
         [SerializeField] GameObject home2;
         [SerializeField] GameObject home3;
         [SerializeField] GameObject home4;
-        [SerializeField] GameObject home41;
         [SerializeField] GameObject home5;
         [SerializeField] GameObject MainBuilding;
-        [SerializeField] GameObject MainBuildingv2;
         [SerializeField] GameObject storage;
         
         public static GameManager Instance { get; set; }

@@ -25,11 +25,6 @@ public class SceneManagement : MonoBehaviour
                 GameManager.Instance.player_position = new Vector3(GameManager.Instance.home3_vector.x, GameManager.Instance.home3_vector.y, 0f);
                 break;
 
-            case "home3_basement":
-                SceneManager.LoadScene(4);
-                GameManager.Instance.player_position = new Vector3(GameManager.Instance.home3_vector.x, GameManager.Instance.home3_vector.y, 0f);
-                break;
-
             case "home4":
                 SceneManager.LoadScene(5);
                 GameManager.Instance.player_position = new Vector3(GameManager.Instance.home4_vector.x, GameManager.Instance.home4_vector.y, 0f);
