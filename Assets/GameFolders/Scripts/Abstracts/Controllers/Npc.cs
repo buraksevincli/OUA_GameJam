@@ -21,13 +21,7 @@ namespace GameFolders.Scripts.Abstracts.Controllers
         #endregion
 
         protected static bool PlayerTriggered { get; set; }
-
-        private void Start()
-        {
-            answerText[0].text = "Cevap A";
-            answerText[1].text = "Cevap B";
-        }
-
+        
         private void Update()
         {
             NpcPanelController();
@@ -38,7 +32,7 @@ namespace GameFolders.Scripts.Abstracts.Controllers
                 button[1].SetActive(PlayerTriggered);
             }
         }
-        
+
         #region DialogueRegion
 
         private IEnumerator Dialogue()

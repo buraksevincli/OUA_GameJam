@@ -14,6 +14,7 @@ namespace GameFolders.Scripts.Concretes.Controllers
         {
             if (col.gameObject.CompareTag("Player"))
             {
+                GameManager.Instance.PlayerAnswer = true;
                 PlayerTriggered = true;
                 npcImage.SetActive(true);
                 StartDialogue();

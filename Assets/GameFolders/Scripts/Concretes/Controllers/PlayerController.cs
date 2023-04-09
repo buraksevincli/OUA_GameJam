@@ -3,6 +3,7 @@ using GameFolders.Scripts.Abstracts.Inputs;
 using GameFolders.Scripts.Abstracts.Movements;
 using GameFolders.Scripts.Concretes.Animations;
 using GameFolders.Scripts.Concretes.Inputs;
+using GameFolders.Scripts.Concretes.Managers;
 using GameFolders.Scripts.Concretes.Movements;
 using UnityEngine;
 
@@ -36,10 +37,18 @@ namespace GameFolders.Scripts.Concretes.Controllers
             _mover.Tick(_horizontal, _vertical, speed);
             
             _flip.FlipCharacter(_horizontal);
+            
         }
 
         private void Update()
         {
+            if (GameManager.Instance.PlayerAnswer)
+            {
+                _horizontal = 0f;
+                _vertical = 0f;
+                return;
+            }
+            
             _horizontal = _input.Horizontal;
             _vertical = _input.Vertical;
 

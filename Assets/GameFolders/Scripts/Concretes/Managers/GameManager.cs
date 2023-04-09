@@ -17,6 +17,8 @@ namespace GameFolders.Scripts.Concretes.Managers
         
         public static GameManager Instance { get; set; }
 
+        public bool PlayerAnswer { get; set; }
+        
         public bool Question1 { get; set; }
         public bool Question2 { get; set; }
         public bool Question3 { get; set; }
