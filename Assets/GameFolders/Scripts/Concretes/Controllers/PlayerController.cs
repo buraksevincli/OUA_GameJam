@@ -42,7 +42,7 @@ namespace GameFolders.Scripts.Concretes.Controllers
 
         private void Update()
         {
-            if (GameManager.Instance.PlayerAnswer)
+            if (MoverBlocker.Instance.PlayerAnswer)
             {
                 _horizontal = 0f;
                 _vertical = 0f;

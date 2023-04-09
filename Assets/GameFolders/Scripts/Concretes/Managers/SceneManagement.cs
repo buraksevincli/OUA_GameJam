@@ -1,6 +1,4 @@
 using GameFolders.Scripts.Concretes.Managers;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -11,45 +9,46 @@ public class SceneManagement : MonoBehaviour
         switch (collision.tag)
         {
             case "home1":
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene("Home1");
                 GameManager.Instance.player_position = new Vector3(GameManager.Instance.home1_vector.x, GameManager.Instance.home1_vector.y, 0f);
                 break;
 
             case "home2":
-                SceneManager.LoadScene(2);
+                SceneManager.LoadScene("Home2");
                 GameManager.Instance.player_position = new Vector3(GameManager.Instance.home2_vector.x, GameManager.Instance.home2_vector.y, 0f);
                 break;
 
             case "home3":
-                SceneManager.LoadScene(3);
+                SceneManager.LoadScene("Home3");
                 GameManager.Instance.player_position = new Vector3(GameManager.Instance.home3_vector.x, GameManager.Instance.home3_vector.y, 0f);
                 break;
 
             case "home4":
-                SceneManager.LoadScene(5);
+                SceneManager.LoadScene("Home4");
                 GameManager.Instance.player_position = new Vector3(GameManager.Instance.home4_vector.x, GameManager.Instance.home4_vector.y, 0f);
                 break;
 
             case "home5":
-                SceneManager.LoadScene(6);
+                SceneManager.LoadScene("Home5");
                 GameManager.Instance.player_position = new Vector3(GameManager.Instance.home5_vector.x, GameManager.Instance.home5_vector.y, 0f);
                 break;
 
             case "MainBuilding":
-                SceneManager.LoadScene(7);
+                SceneManager.LoadScene("Main Building");
                 GameManager.Instance.player_position = new Vector3(GameManager.Instance.MainBuilding_vector.x, GameManager.Instance.MainBuilding_vector.y, 0f);
                 break;
 
             case "Storage":
-                SceneManager.LoadScene(8);
+                SceneManager.LoadScene("Storage");
                 GameManager.Instance.player_position = new Vector3(GameManager.Instance.storage_vector.x, GameManager.Instance.storage_vector.y, 0f);
+                break;
+            
+            case "home3_basement":
+                SceneManager.LoadScene("Home3 Basement");
                 break;
 
             case "main":
-                SceneManager.LoadScene(0);
-                break;
-
-            default:
+                SceneManager.LoadScene("Game");
                 break;
         }
         

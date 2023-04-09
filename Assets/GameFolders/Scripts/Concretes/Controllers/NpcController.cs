@@ -1,5 +1,6 @@
 using GameFolders.Scripts.Abstracts.Controllers;
 using GameFolders.Scripts.Concretes.Managers;
+using GameFolders.Scripts.Concretes.Movements;
 using UnityEngine;
 
 namespace GameFolders.Scripts.Concretes.Controllers
@@ -14,7 +15,7 @@ namespace GameFolders.Scripts.Concretes.Controllers
         {
             if (col.gameObject.CompareTag("Player"))
             {
-                GameManager.Instance.PlayerAnswer = true;
+                MoverBlocker.Instance.PlayerAnswer = true;
                 PlayerTriggered = true;
                 npcImage.SetActive(true);
                 StartDialogue();

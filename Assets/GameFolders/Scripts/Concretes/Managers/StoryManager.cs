@@ -52,4 +52,9 @@ public class StoryManager : MonoBehaviour
     {
         SceneManager.LoadScene("Game");
     }
+
+    public void MenuScene()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }
