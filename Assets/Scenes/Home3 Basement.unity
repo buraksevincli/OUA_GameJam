@@ -251,7 +251,7 @@ GameObject:
   - component: {fileID: 277699313}
   m_Layer: 0
   m_Name: Basement management
-  m_TagString: home2
+  m_TagString: home3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -787,7 +787,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &871075889
 MonoBehaviour:
   m_ObjectHideFlags: 0
