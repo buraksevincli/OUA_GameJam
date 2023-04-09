@@ -30,51 +30,51 @@ public class NpcColliderManagement : MonoBehaviour
             {
                 case "NPC1":
                     GameManager.Instance.Question1 = true;
+                    GameManager.Instance.PlayerAnswer = false;
                     home1.SetActive(true);
                     Destroy(npc1.GetComponent<BoxCollider2D>());
-                    Debug.Log("question1=true");
                     break;
 
                 case "NPC2":
                     GameManager.Instance.Question2 = true;
+                    GameManager.Instance.PlayerAnswer = false;
                     home2.SetActive(true);
                     Destroy(npc2.GetComponent<BoxCollider2D>());
-                    Debug.Log("question2=true");
                     break;
 
                 case "NPC3":
                     GameManager.Instance.Question3 = true;
+                    GameManager.Instance.PlayerAnswer = false;
                     home3.SetActive(true);
                     Destroy(npc3.GetComponent<BoxCollider2D>());
-                    Debug.Log("question3=true");
                     break;
 
                 case "NPC4":
                     GameManager.Instance.Question4 = true;
+                    GameManager.Instance.PlayerAnswer = false;
                     home4.SetActive(true);
                     Destroy(npc4.GetComponent<BoxCollider2D>());
-                    Debug.Log("question4=true");
                     break;
 
                 case "NPC5":
                     GameManager.Instance.Question5 = true;
+                    GameManager.Instance.PlayerAnswer = false;
                     home5.SetActive(true);
                     Destroy(npc5.GetComponent<BoxCollider2D>());
-                    Debug.Log("question5=true");
                     break;
 
                 case "NPC6":
                     GameManager.Instance.Question6 = true;
+                    GameManager.Instance.PlayerAnswer = false;
                     Storage.SetActive(true);
                     Destroy(npc6.GetComponent<BoxCollider2D>());
-                    Debug.Log("question6=true");
                     break;
 
                 case "NPC7":
                     GameManager.Instance.Question7 = true;
+                    GameManager.Instance.PlayerAnswer = false;
                     MainBuilding.SetActive(true);
                     Destroy(npc7.GetComponent<BoxCollider2D>());
-                    Debug.Log("question7=true");
                     break;
             }
         }
