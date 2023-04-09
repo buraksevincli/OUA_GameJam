@@ -221,7 +221,7 @@ PrefabInstance:
     - target: {fileID: 5712625323751926234, guid: f1f9dd7dbcdfaad42b94243a189fb061, type: 3}
       propertyPath: questionController
       value: 
-      objectReference: {fileID: 1364828619}
+      objectReference: {fileID: 2122245730}
     - target: {fileID: 5712625323751926234, guid: f1f9dd7dbcdfaad42b94243a189fb061, type: 3}
       propertyPath: button.Array.data[0]
       value: 
@@ -260,6 +260,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1f9dd7dbcdfaad42b94243a189fb061, type: 3}
+--- !u!1 &64192663 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5281206112564417290, guid: 330baa87283259a4387b52b08339785e, type: 3}
+  m_PrefabInstance: {fileID: 561291470}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &69305254
 GameObject:
   m_ObjectHideFlags: 0
@@ -276,7 +281,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &69305255
 Transform:
   m_ObjectHideFlags: 0
@@ -410,7 +415,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &175823556
 Transform:
   m_ObjectHideFlags: 0
@@ -574,7 +579,7 @@ PrefabInstance:
     - target: {fileID: 4225618261250344459, guid: fdf104ed9169a394483e3c639a1b9bde, type: 3}
       propertyPath: questionController
       value: 
-      objectReference: {fileID: 1364828619}
+      objectReference: {fileID: 2122245730}
     - target: {fileID: 4225618261250344459, guid: fdf104ed9169a394483e3c639a1b9bde, type: 3}
       propertyPath: button.Array.data[0]
       value: 
@@ -681,6 +686,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdf104ed9169a394483e3c639a1b9bde, type: 3}
+--- !u!1 &245962785 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1482891335005314310, guid: cc1aef7b2c7f74b4ea888439583e5d05, type: 3}
+  m_PrefabInstance: {fileID: 1360952999}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &350385531
 GameObject:
   m_ObjectHideFlags: 0
@@ -867,7 +877,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &394976378
 Transform:
   m_ObjectHideFlags: 0
@@ -1047,7 +1057,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &446663498
 Transform:
   m_ObjectHideFlags: 0
@@ -1136,7 +1146,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &524177822
 Transform:
   m_ObjectHideFlags: 0
@@ -1224,7 +1234,7 @@ PrefabInstance:
     - target: {fileID: 1686884985905314700, guid: 330baa87283259a4387b52b08339785e, type: 3}
       propertyPath: questionController
       value: 
-      objectReference: {fileID: 1364828619}
+      objectReference: {fileID: 2122245730}
     - target: {fileID: 1686884985905314700, guid: 330baa87283259a4387b52b08339785e, type: 3}
       propertyPath: button.Array.data[0]
       value: 
@@ -1331,7 +1341,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &646816944
 Transform:
   m_ObjectHideFlags: 0
@@ -1509,6 +1519,11 @@ Canvas:
   m_SortingLayerID: 608558953
   m_SortingOrder: 100
   m_TargetDisplay: 0
+--- !u!1 &691774758 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6981227053038613504, guid: f4740b9cc95bdef4a91c6497c4e8fe68, type: 3}
+  m_PrefabInstance: {fileID: 1422507255}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &737027170
 GameObject:
   m_ObjectHideFlags: 0
@@ -24212,6 +24227,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1009551664}
   m_CullTransparentMesh: 1
+--- !u!1 &1144778105 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4261199809988066334, guid: c11f09b1b52654c4ba259e5b6c795660, type: 3}
+  m_PrefabInstance: {fileID: 1467263296}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1168965715
 GameObject:
   m_ObjectHideFlags: 0
@@ -24296,7 +24316,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1364828622}
+      - m_Target: {fileID: 2122245731}
         m_TargetAssemblyTypeName: ButtonManagement, Assembly-CSharp
         m_MethodName: questionController
         m_Mode: 1
@@ -24452,7 +24472,7 @@ PrefabInstance:
     - target: {fileID: 3850999094131691731, guid: b88d567a1e23d2d4bb7b86d3c94a9d14, type: 3}
       propertyPath: questionController
       value: 
-      objectReference: {fileID: 1364828619}
+      objectReference: {fileID: 2122245730}
     - target: {fileID: 3850999094131691731, guid: b88d567a1e23d2d4bb7b86d3c94a9d14, type: 3}
       propertyPath: button.Array.data[0]
       value: 
@@ -24543,6 +24563,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b88d567a1e23d2d4bb7b86d3c94a9d14, type: 3}
+--- !u!1 &1201623256 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1253349214838522204, guid: f1f9dd7dbcdfaad42b94243a189fb061, type: 3}
+  m_PrefabInstance: {fileID: 19005693}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1259980109
 GameObject:
   m_ObjectHideFlags: 0
@@ -24711,7 +24736,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1263711970
 Transform:
   m_ObjectHideFlags: 0
@@ -24882,7 +24907,7 @@ PrefabInstance:
     - target: {fileID: 5384002504317629824, guid: cc1aef7b2c7f74b4ea888439583e5d05, type: 3}
       propertyPath: questionController
       value: 
-      objectReference: {fileID: 1364828619}
+      objectReference: {fileID: 2122245730}
     - target: {fileID: 5384002504317629824, guid: cc1aef7b2c7f74b4ea888439583e5d05, type: 3}
       propertyPath: button.Array.data[0]
       value: 
@@ -24931,7 +24956,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1364828621}
   - component: {fileID: 1364828620}
-  - component: {fileID: 1364828622}
   m_Layer: 0
   m_Name: '[GameManager]'
   m_TagString: Untagged
@@ -24975,19 +24999,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1364828622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1364828619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1a9315baee307940b34873a3201c63a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Question_controller: 0
 --- !u!1001 &1422507255
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25038,7 +25049,7 @@ PrefabInstance:
     - target: {fileID: 4522129745091222662, guid: f4740b9cc95bdef4a91c6497c4e8fe68, type: 3}
       propertyPath: questionController
       value: 
-      objectReference: {fileID: 1364828619}
+      objectReference: {fileID: 2122245730}
     - target: {fileID: 4522129745091222662, guid: f4740b9cc95bdef4a91c6497c4e8fe68, type: 3}
       propertyPath: button.Array.data[0]
       value: 
@@ -27303,7 +27314,7 @@ PrefabInstance:
     - target: {fileID: 7278180562577757336, guid: c11f09b1b52654c4ba259e5b6c795660, type: 3}
       propertyPath: questionController
       value: 
-      objectReference: {fileID: 1364828619}
+      objectReference: {fileID: 2122245730}
     - target: {fileID: 7278180562577757336, guid: c11f09b1b52654c4ba259e5b6c795660, type: 3}
       propertyPath: button.Array.data[0]
       value: 
@@ -27504,6 +27515,11 @@ Transform:
   m_Father: {fileID: 1534823362}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1568711890 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7244023941322141325, guid: fdf104ed9169a394483e3c639a1b9bde, type: 3}
+  m_PrefabInstance: {fileID: 236578053}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1594430426
 GameObject:
   m_ObjectHideFlags: 0
@@ -136530,7 +136546,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1663189741
 Transform:
   m_ObjectHideFlags: 0
@@ -136791,7 +136807,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1724827503
 Transform:
   m_ObjectHideFlags: 0
@@ -137417,6 +137433,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1896749181 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7733497818128021589, guid: b88d567a1e23d2d4bb7b86d3c94a9d14, type: 3}
+  m_PrefabInstance: {fileID: 1194220883}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1900977502
 GameObject:
   m_ObjectHideFlags: 0
@@ -137433,7 +137454,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1900977503
 Transform:
   m_ObjectHideFlags: 0
@@ -137695,6 +137716,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3626065592387765694, guid: ca4554d8f03712442b1d11bf3ded5c1c, type: 3}
+      propertyPath: m_SleepingMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3626065592387765695, guid: ca4554d8f03712442b1d11bf3ded5c1c, type: 3}
       propertyPath: m_Name
       value: Player
@@ -137794,7 +137819,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7eb17176f707d14d9387d49e55a17c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionController: {fileID: 0}
+  questionController: {fileID: 2122245730}
+  npc1: {fileID: 1568711890}
+  npc2: {fileID: 1144778105}
+  npc3: {fileID: 1896749181}
+  npc4: {fileID: 691774758}
+  npc5: {fileID: 1201623256}
+  npc6: {fileID: 245962785}
+  npc7: {fileID: 64192663}
+  home1: {fileID: 646816943}
+  home2: {fileID: 1263711969}
+  home3: {fileID: 175823555}
+  home4: {fileID: 446663497}
+  home5: {fileID: 394976377}
+  Storage: {fileID: 1900977502}
+  MainBuilding: {fileID: 69305254}
 --- !u!1 &2037646715
 GameObject:
   m_ObjectHideFlags: 0
@@ -148822,6 +148861,71 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
+--- !u!1 &2122245730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2122245732}
+  - component: {fileID: 2122245731}
+  - component: {fileID: 2122245733}
+  m_Layer: 0
+  m_Name: sample
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2122245731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122245730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1a9315baee307940b34873a3201c63a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Question_controller: 0
+--- !u!4 &2122245732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122245730}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.0985208, y: -4.63357, z: -8.540699}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2122245733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122245730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22c9dd785163594d92cca518c8c4f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npc1: {fileID: 1568711890}
+  npc2: {fileID: 1144778105}
+  npc3: {fileID: 1896749181}
+  npc4: {fileID: 691774758}
+  npc5: {fileID: 1201623256}
+  npc6: {fileID: 245962785}
+  npc7: {fileID: 64192663}
 --- !u!1 &2934091423631996548
 GameObject:
   m_ObjectHideFlags: 0
