@@ -1,24 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee753980-75fa-40e4-a2ed-f3dd043346c1" name="Changes" comment="" />
+    <list default="true" id="ee753980-75fa-40e4-a2ed-f3dd043346c1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OUA_GameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OUA_GameJam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameFolders/Scripts/Concretes/Actions/KeyClosetHome1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameFolders/Scripts/Concretes/Actions/KeyClosetHome1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Home1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Home1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Home2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Home2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Home3 Basement.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Home3 Basement.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Home3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Home3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Home4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Home4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Home5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Home5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Building.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Building.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Storage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Storage.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../BAU_GameJam/Assets/Scripts/Managers/EventManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../BAU_GameJam/Assets/Scripts/Managers/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../BAU_GameJam/Assets/Scripts/Managers/SoundManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../BAU_GameJam/Assets/Scripts/Managers/TutorialManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../KaijuJam/Assets/GameFolders/Scripts/Concretes/Dialogue/PlayerStory.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameFolders/Scripts/Abstracts/Animations/IAnimation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameFolders/Scripts/Abstracts/Controllers/Npc.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameFolders/Scripts/Abstracts/Inputs/IPlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameFolders/Scripts/Abstracts/Movements/IFlip.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameFolders/Scripts/Abstracts/Movements/IMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameFolders/Scripts/Concretes/Actions/Interaction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameFolders/Scripts/Concretes/Actions/KeyClosetHome2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameFolders/Scripts/Concretes/Animations/PlayerAnimation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameFolders/Scripts/Concretes/Controllers/NpcController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameFolders/Scripts/Concretes/Inputs/PcInput.cs" root0="FORCE_HIGHLIGHTING" />
@@ -27,6 +36,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/GameFolders/Scripts/Concretes/Managers/StoryManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameFolders/Scripts/Concretes/Movements/HorizontalFlip.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameFolders/Scripts/Concretes/Movements/Mover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/KeyManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/deneme.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/deneme1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -107,6 +119,7 @@
       <workItem from="1680961986990" duration="4197000" />
       <workItem from="1680984551443" duration="1787000" />
       <workItem from="1680993443764" duration="4666000" />
+      <workItem from="1681036215056" duration="8185000" />
     </task>
     <servers />
   </component>

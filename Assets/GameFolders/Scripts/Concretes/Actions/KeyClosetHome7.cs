@@ -4,7 +4,7 @@ using GameFolders.Scripts.Concretes.Managers;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class KeyClosetHome1 : MonoBehaviour
+public class KeyClosetHome7 : MonoBehaviour
 {
     private bool cond = false;
     [SerializeField] private GameObject key, Closedcloset;
@@ -13,7 +13,7 @@ public class KeyClosetHome1 : MonoBehaviour
     {
         
             key.SetActive(true);
-            KeyManager.Instance.key1bool = true;
+            KeyManager.Instance.key7bool = true;
             yield return new WaitForSeconds(2f);
             key.SetActive(false);
             
@@ -23,7 +23,7 @@ public class KeyClosetHome1 : MonoBehaviour
     }
     void OnEnable()
     {
-        if(Closedcloset.GetComponent<Interaction>().opened == true && KeyManager.Instance.key1bool != true)
+        if(Closedcloset.GetComponent<Interaction>().opened == true && KeyManager.Instance.key7bool != true)
         {
             cond = true;
         }
