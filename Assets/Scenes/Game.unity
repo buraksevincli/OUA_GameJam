@@ -150,6 +150,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC-5
       objectReference: {fileID: 0}
+    - target: {fileID: 1253349214838522204, guid: f1f9dd7dbcdfaad42b94243a189fb061, type: 3}
+      propertyPath: m_TagString
+      value: NPC5
+      objectReference: {fileID: 0}
     - target: {fileID: 1978457484322140244, guid: f1f9dd7dbcdfaad42b94243a189fb061, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -214,6 +218,10 @@ PrefabInstance:
       propertyPath: button.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5712625323751926234, guid: f1f9dd7dbcdfaad42b94243a189fb061, type: 3}
+      propertyPath: questionController
+      value: 
+      objectReference: {fileID: 1364828619}
     - target: {fileID: 5712625323751926234, guid: f1f9dd7dbcdfaad42b94243a189fb061, type: 3}
       propertyPath: button.Array.data[0]
       value: 
@@ -460,6 +468,10 @@ PrefabInstance:
       value: 0.81732464
       objectReference: {fileID: 0}
     - target: {fileID: 2404030757700657296, guid: fdf104ed9169a394483e3c639a1b9bde, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404030757700657296, guid: fdf104ed9169a394483e3c639a1b9bde, type: 3}
       propertyPath: m_Offset.x
       value: -0.019229174
       objectReference: {fileID: 0}
@@ -560,6 +572,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4225618261250344459, guid: fdf104ed9169a394483e3c639a1b9bde, type: 3}
+      propertyPath: questionController
+      value: 
+      objectReference: {fileID: 1364828619}
+    - target: {fileID: 4225618261250344459, guid: fdf104ed9169a394483e3c639a1b9bde, type: 3}
       propertyPath: button.Array.data[0]
       value: 
       objectReference: {fileID: 1168965715}
@@ -598,6 +614,10 @@ PrefabInstance:
     - target: {fileID: 7244023941322141325, guid: fdf104ed9169a394483e3c639a1b9bde, type: 3}
       propertyPath: m_Name
       value: NPC-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7244023941322141325, guid: fdf104ed9169a394483e3c639a1b9bde, type: 3}
+      propertyPath: m_TagString
+      value: NPC1
       objectReference: {fileID: 0}
     - target: {fileID: 7969083828165844869, guid: fdf104ed9169a394483e3c639a1b9bde, type: 3}
       propertyPath: m_RootOrder
@@ -1202,6 +1222,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1686884985905314700, guid: 330baa87283259a4387b52b08339785e, type: 3}
+      propertyPath: questionController
+      value: 
+      objectReference: {fileID: 1364828619}
+    - target: {fileID: 1686884985905314700, guid: 330baa87283259a4387b52b08339785e, type: 3}
       propertyPath: button.Array.data[0]
       value: 
       objectReference: {fileID: 1168965715}
@@ -1268,6 +1292,10 @@ PrefabInstance:
     - target: {fileID: 5281206112564417290, guid: 330baa87283259a4387b52b08339785e, type: 3}
       propertyPath: m_Name
       value: NPC-7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281206112564417290, guid: 330baa87283259a4387b52b08339785e, type: 3}
+      propertyPath: m_TagString
+      value: NPC7
       objectReference: {fileID: 0}
     - target: {fileID: 5956720209793606966, guid: 330baa87283259a4387b52b08339785e, type: 3}
       propertyPath: m_Size.x
@@ -24266,7 +24294,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1168965718}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1364828622}
+        m_TargetAssemblyTypeName: ButtonManagement, Assembly-CSharp
+        m_MethodName: questionController
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1168965718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24409,6 +24449,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3850999094131691731, guid: b88d567a1e23d2d4bb7b86d3c94a9d14, type: 3}
+      propertyPath: questionController
+      value: 
+      objectReference: {fileID: 1364828619}
+    - target: {fileID: 3850999094131691731, guid: b88d567a1e23d2d4bb7b86d3c94a9d14, type: 3}
       propertyPath: button.Array.data[0]
       value: 
       objectReference: {fileID: 1168965715}
@@ -24475,6 +24519,10 @@ PrefabInstance:
     - target: {fileID: 7733497818128021589, guid: b88d567a1e23d2d4bb7b86d3c94a9d14, type: 3}
       propertyPath: m_Name
       value: NPC-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733497818128021589, guid: b88d567a1e23d2d4bb7b86d3c94a9d14, type: 3}
+      propertyPath: m_TagString
+      value: NPC3
       objectReference: {fileID: 0}
     - target: {fileID: 8120833214238559849, guid: b88d567a1e23d2d4bb7b86d3c94a9d14, type: 3}
       propertyPath: m_Size.x
@@ -24762,6 +24810,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC-6
       objectReference: {fileID: 0}
+    - target: {fileID: 1482891335005314310, guid: cc1aef7b2c7f74b4ea888439583e5d05, type: 3}
+      propertyPath: m_TagString
+      value: NPC6
+      objectReference: {fileID: 0}
     - target: {fileID: 2198995965643582478, guid: cc1aef7b2c7f74b4ea888439583e5d05, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -24827,6 +24879,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5384002504317629824, guid: cc1aef7b2c7f74b4ea888439583e5d05, type: 3}
+      propertyPath: questionController
+      value: 
+      objectReference: {fileID: 1364828619}
+    - target: {fileID: 5384002504317629824, guid: cc1aef7b2c7f74b4ea888439583e5d05, type: 3}
       propertyPath: button.Array.data[0]
       value: 
       objectReference: {fileID: 1168965715}
@@ -24874,6 +24930,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1364828621}
   - component: {fileID: 1364828620}
+  - component: {fileID: 1364828622}
   m_Layer: 0
   m_Name: '[GameManager]'
   m_TagString: Untagged
@@ -24917,6 +24974,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1364828622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364828619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1a9315baee307940b34873a3201c63a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Question_controller: 0
 --- !u!1001 &1422507255
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24965,6 +25035,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4522129745091222662, guid: f4740b9cc95bdef4a91c6497c4e8fe68, type: 3}
+      propertyPath: questionController
+      value: 
+      objectReference: {fileID: 1364828619}
+    - target: {fileID: 4522129745091222662, guid: f4740b9cc95bdef4a91c6497c4e8fe68, type: 3}
       propertyPath: button.Array.data[0]
       value: 
       objectReference: {fileID: 1168965715}
@@ -24987,6 +25061,10 @@ PrefabInstance:
     - target: {fileID: 6981227053038613504, guid: f4740b9cc95bdef4a91c6497c4e8fe68, type: 3}
       propertyPath: m_Name
       value: NPC-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6981227053038613504, guid: f4740b9cc95bdef4a91c6497c4e8fe68, type: 3}
+      propertyPath: m_TagString
+      value: NPC4
       objectReference: {fileID: 0}
     - target: {fileID: 7706331750493472008, guid: f4740b9cc95bdef4a91c6497c4e8fe68, type: 3}
       propertyPath: m_RootOrder
@@ -27177,6 +27255,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC-2
       objectReference: {fileID: 0}
+    - target: {fileID: 4261199809988066334, guid: c11f09b1b52654c4ba259e5b6c795660, type: 3}
+      propertyPath: m_TagString
+      value: NPC2
+      objectReference: {fileID: 0}
     - target: {fileID: 6972411176075248487, guid: c11f09b1b52654c4ba259e5b6c795660, type: 3}
       propertyPath: m_Size.x
       value: 2.1999016
@@ -27217,6 +27299,10 @@ PrefabInstance:
       propertyPath: button.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7278180562577757336, guid: c11f09b1b52654c4ba259e5b6c795660, type: 3}
+      propertyPath: questionController
+      value: 
+      objectReference: {fileID: 1364828619}
     - target: {fileID: 7278180562577757336, guid: c11f09b1b52654c4ba259e5b6c795660, type: 3}
       propertyPath: button.Array.data[0]
       value: 
@@ -137695,6 +137781,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3626065592387765695, guid: ca4554d8f03712442b1d11bf3ded5c1c, type: 3}
   m_PrefabInstance: {fileID: 1973784090}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2016797420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016797413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7eb17176f707d14d9387d49e55a17c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionController: {fileID: 0}
 --- !u!1 &2037646715
 GameObject:
   m_ObjectHideFlags: 0

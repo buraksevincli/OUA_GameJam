@@ -15,6 +15,13 @@ TagManager:
   - MainBuilding
   - home2_basement
   - main
+  - NPC1
+  - NPC2
+  - NPC3
+  - NPC4
+  - NPC5
+  - NPC6
+  - NPC7
   layers:
   - Default
   - TransparentFX

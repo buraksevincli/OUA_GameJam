@@ -14,9 +14,17 @@ namespace GameFolders.Scripts.Concretes.Managers
         [SerializeField] GameObject MainBuilding;
         [SerializeField] GameObject MainBuildingv2;
         [SerializeField] GameObject storage;
+        
         public static GameManager Instance { get; set; }
 
         public bool Question1 { get; set; }
+        public bool Question2 { get; set; }
+        public bool Question3 { get; set; }
+        public bool Question4 { get; set; }
+        public bool Question5 { get; set; }
+        public bool Question6 { get; set; }
+        public bool Question7 { get; set; }
+
         public Vector3 player_position { get; set;}
         public Vector3 home1_vector { get; set; }
         public Vector3 home2_vector { get; set; }

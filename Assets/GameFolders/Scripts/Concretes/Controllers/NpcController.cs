@@ -7,7 +7,8 @@ namespace GameFolders.Scripts.Concretes.Controllers
     public class NpcController : Npc
     {
         [SerializeField] private GameObject npcImage;
-        
+        [SerializeField] GameObject questionController;
+
         #region TriggerRegion
         private void OnTriggerEnter2D(Collider2D col)
         {
@@ -26,6 +27,7 @@ namespace GameFolders.Scripts.Concretes.Controllers
                 PlayerTriggered = false;
                 npcImage.SetActive(false);
             }
+            questionController.GetComponent<ButtonManagement>().Question_controller = false;
         }
         #endregion
     }
