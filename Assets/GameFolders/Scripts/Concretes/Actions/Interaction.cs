@@ -9,6 +9,9 @@ public class Interaction : MonoBehaviour
 {
     [SerializeField] private GameObject panel;
     [SerializeField] private GameObject item;
+    public bool opened = false;
+    
+    
     
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -22,11 +25,12 @@ public class Interaction : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Debug.Log("stay");
             if (Input.GetKey(KeyCode.E))
             {
+                opened = true;
                 item.SetActive(true);
                 gameObject.SetActive(false);
+                
             }
         }
     }

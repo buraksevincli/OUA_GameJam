@@ -3,6 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="ee753980-75fa-40e4-a2ed-f3dd043346c1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OUA_GameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OUA_GameJam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Button Controller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Button Controller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameFolders/Scripts/Concretes/Actions/Interaction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameFolders/Scripts/Concretes/Actions/Interaction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Home1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Home1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Home2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Home2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Home3 Basement.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Home3 Basement.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Home3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Home3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Home4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Home4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Home5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Home5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Building.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Building.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Storage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Storage.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/GameFolders/Scripts/Concretes/Inputs/PcInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameFolders/Scripts/Concretes/Movements/HorizontalFlip.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameFolders/Scripts/Concretes/Movements/Mover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/KeyClosetHome1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -101,7 +113,7 @@
       <workItem from="1680961858650" duration="97000" />
       <workItem from="1680961986990" duration="4197000" />
       <workItem from="1680984551443" duration="1787000" />
-      <workItem from="1680993443764" duration="631000" />
+      <workItem from="1680993443764" duration="4071000" />
     </task>
     <servers />
   </component>
