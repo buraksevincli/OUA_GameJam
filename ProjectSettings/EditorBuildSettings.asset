@@ -32,4 +32,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Storage.unity
     guid: 7204e6a3597baf545b20a8bba2b5cf8f
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: b53e48522dfc5a647a315cc08c4017b9
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 49ce613fcfe9a2d4db291a6b44da22c7
+  - enabled: 1
+    path: Assets/Scenes/Story.unity
+    guid: 7e97d290d250e754192eaf28e25285cb
   m_configObjects: {}
