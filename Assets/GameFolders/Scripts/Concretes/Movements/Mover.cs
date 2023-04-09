@@ -18,6 +18,7 @@ namespace GameFolders.Scripts.Concretes.Movements
             Vector2 move = new Vector2(horizontal, vertical);
 
             _rigidbody2D.velocity = move * speed;
+            
         }
     }
 }
