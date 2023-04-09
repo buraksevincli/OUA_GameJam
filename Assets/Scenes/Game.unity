@@ -148926,6 +148926,13 @@ MonoBehaviour:
   npc5: {fileID: 1201623256}
   npc6: {fileID: 245962785}
   npc7: {fileID: 64192663}
+  home1: {fileID: 646816943}
+  home2: {fileID: 1263711969}
+  home3: {fileID: 175823555}
+  home4: {fileID: 446663497}
+  home5: {fileID: 394976377}
+  home6: {fileID: 1900977502}
+  home7: {fileID: 69305254}
 --- !u!1 &2934091423631996548
 GameObject:
   m_ObjectHideFlags: 0
